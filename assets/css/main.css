@@ -226,6 +226,21 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	.tech-logos {
+		display:flex;
+		flex-wrap: wrap;
+		margin: auto;
+		justify-content: space-evenly;
+		background-color: white;
+		width: fit-content;
+	}
+	.logo-div{
+		height: 9em;
+	}
+	.logo-div img {
+		height: 100%;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -1135,10 +1150,10 @@ input, select, textarea {
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
